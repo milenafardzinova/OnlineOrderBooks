@@ -11,14 +11,14 @@ namespace OnlineOrderBooks
         public int Id { get; set; }
         public string Title { get; set; }
         public string Author {  get; set; }
-        public int AvailableCount { get; set; }
+        public int Count { get; set; }
 
         public Book (int id, string title, string author, int count) 
         {
             Id = id;
             Title = title;
             Author = author;
-            AvailableCount= count;
+            Count= count;
         }
 
     }
