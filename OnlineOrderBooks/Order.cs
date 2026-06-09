@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace OnlineOrderBooks
 {
-    internal class Books
+    public class Order
     {
+        public Book OrderedBook { get; set; }
+        public string ReaderName { get; set; }
     }
 }
